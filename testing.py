@@ -4,6 +4,7 @@ import sys
 
 logger = get_logger(__name__)
 
+# testing a function that raises an exception and uses CustomException
 def divide_numbers(a,b):
 
     try:
